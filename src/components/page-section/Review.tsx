@@ -7,7 +7,10 @@ import { REVIEW_DATA } from "../../utils/constant";
 
 const Review = () => {
   return (
-    <div id="review" className="flex flex-col gap-8 justify-center items-start w-[1090px] mx-auto mt-10">
+    <div
+      id="review"
+      className="flex flex-col gap-8 justify-center items-start w-[1090px] mx-auto mt-10"
+    >
       <div className="flex flex-col gap-6">
         <h1 className="text-[40px] font-bold">Review from customers</h1>
         <div className="w-[399px] text-black text-xs">

@@ -5,8 +5,8 @@ import ellipse from "components/assets/Ellipse.svg";
 
 const Header = () => {
   return (
-    <>
-      <div className="w-[1440px] h-[91px] px-[175px] justify-center items-center gap-[684px] flex absolute top-0 z-10">
+    <div className="relative w-full">
+      <div className="w-full h-[91px] px-[175px] justify-center items-center gap-[684px] flex absolute top-0 z-10">
         <div className="text-white font-bold z-[9999]">Logo</div>
         <div className="self-stretch justify-start items-center gap-[107px] inline-flex text-white ">
           <a href="#about" className="cursor-pointer">
@@ -29,7 +29,7 @@ const Header = () => {
           alt="/polygon1"
         />
       </div>
-    </>
+    </div>
   );
 };
 

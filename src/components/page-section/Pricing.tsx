@@ -8,7 +8,7 @@ const Pricing = () => {
   const [selectedType, setSelectedType] = useState(1);
 
   return (
-    <div id="pricing" className="w-[1440px] h-[691px] relative">
+    <div id="pricing" className="h-[691px] relative">
       <div className="w-full h-[568px] left-[1px] top-0 absolute">
         <img src={podcast} alt="/" />
       </div>

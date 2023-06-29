@@ -6,7 +6,7 @@ import AppLayout from "./layout";
 
 function App() {
   return (
-    <div className="App">
+    <div className="max-w-[1440px] mx-auto">
       <AppLayout>
         <Banner />
         <About />

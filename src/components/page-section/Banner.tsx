@@ -7,7 +7,7 @@ import Button from "components/common/Button";
 
 const Banner = () => {
   return (
-    <div className="w-[1439px] h-[652px] relative mt-20 z-50">
+    <div className="h-[652px] relative  z-50">
       <div className="w-[580px] left-[175px] top-[94px] absolute">
         <div className="w-[580px] h-[214.45px] left-0 top-0 absolute">
           <div className="w-[433px] h-[62.75px] left-0 top-[151.70px] absolute text-white">

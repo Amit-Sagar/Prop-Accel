@@ -1,4 +1,3 @@
-import React from "react";
 import star from "components/assets/star.svg";
 
 type props = {
@@ -16,8 +15,8 @@ const ProfileCard = ({ img, name, organisation }: props) => {
           <div className="w-[65px] h-4 text-sm ">{organisation}</div>
         </div>
         <div className="justify-start items-center gap-2 inline-flex">
-          {Array.from({ length: 5 }).map(() => (
-            <img src={star} className="w-5 h-5 relative" />
+          {Array.from({ length: 5 }).map((_, index) => (
+            <img key={index + "A"} src={star} className="w-5 h-5 relative" />
           ))}
         </div>
       </div>

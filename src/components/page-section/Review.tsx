@@ -1,7 +1,6 @@
 import Card from "components/common/Card";
 import ProfileCard from "components/common/ProfileCard";
 import SwipableView from "components/common/Slider";
-import React from "react";
 import { SwiperSlide } from "swiper/react";
 import { REVIEW_DATA } from "../../utils/constant";
 

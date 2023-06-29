@@ -42,6 +42,7 @@ const Pricing = () => {
               styles={`w-[303px] px-[27px] py-[35px] gap-6 ${
                 item.id == 2 ? "bg-purple-800 text-white" : "bg-white"
               }`}
+              key={item.id}
             >
               <div className="flex flex-col gap-4 justify-start items-start">
                 <h1 className="font-bold">{item.planName}</h1>

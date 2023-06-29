@@ -16,6 +16,7 @@ const About = () => {
             <Card
               styles={`w-[268px] h-40 p-8 gap-4 ${item.id % 2 == 0 && "mt-4"}`}
               bordered={true}
+              key={item.id}
             >
               <h1 className="text-xl font-bold">{item.title}</h1>
               <p className="text-xs max-w-52">{item.description}</p>

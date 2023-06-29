@@ -5,7 +5,7 @@ import pngwing from "components/assets/pngwing.png";
 
 const About = () => {
   return (
-    <div id="about" className="h-[525px] relative">
+    <div id="about" className="h-[525px] relative mt-24">
       <img
         className="w-[500px] h-[400px]  absolute right-0 -top-40"
         src={pngwing}
